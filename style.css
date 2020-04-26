@@ -1,0 +1,271 @@
+nav ul a {
+  color: rgba(67, 27, 100);
+  transition-property: background-color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in;
+  transition-delay: 0s;
+}
+nav ul a:hover {
+  color: white;
+  background-color: rgba(67, 27, 100) !important;
+}
+.menu-icon {
+  color: rgba(67, 27, 100);
+}
+.dropdown-content li > a,
+.dropdown-content li {
+  color: black;
+  text-align: center;
+}
+.no-uppercase {
+  text-transform: none;
+}
+.login-btn {
+  color: white;
+  background-image: linear-gradient(
+    to right,
+    rgb(145, 59, 216),
+    rgba(67, 27, 100)
+  );
+  border-radius: 20px;
+  width: 90px;
+}
+.btn:focus {
+  background-color: rgba(67, 27, 100);
+}
+.dropdown-content {
+  border-radius: 13px;
+}
+
+.slider-btn {
+  color: rgba(67, 27, 100);
+  background-color: white;
+  border-radius: 30px;
+  width: 160px;
+}
+.slider-btn:hover {
+  color: white;
+  background-color: white;
+  background-image: linear-gradient(
+    to right,
+    rgb(145, 59, 216),
+    rgba(67, 27, 100)
+  );
+  transition: 0.3s ease;
+}
+.slider .indicators .indicator-item.active {
+  background-image: linear-gradient(
+    to right,
+    rgb(145, 59, 216),
+    rgba(67, 27, 100)
+  );
+  background-color: white;
+}
+
+.btn-floating i {
+  color: rgba(67, 27, 100);
+}
+.btn-floating {
+  background-color: white;
+  position: absolute;
+  margin-left: 50px;
+}
+.btn-floating:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(145, 59, 216),
+    rgba(67, 27, 100)
+  );
+  background-color: white;
+}
+.btn-floating i:hover {
+  color: white;
+}
+.pulse:focus {
+  color: white;
+}
+.space {
+  margin-top: 40px;
+}
+.about-btn {
+  color: white;
+  background-color: white;
+  background-image: linear-gradient(
+    to right,
+    rgb(145, 59, 216),
+    rgba(67, 27, 100)
+  );
+  border-radius: 30px;
+  width: 150px;
+  transition-property: background-image;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in;
+  transition-delay: 0s;
+}
+.about-btn:hover {
+  color: white;
+  background-color: white;
+  background-image: linear-gradient(to right, black, black);
+}
+.parallax-container {
+  height: 330px;
+}
+.space-coming {
+  margin-top: 60px;
+}
+
+.carousel .carousel-item {
+  width: 280px !important;
+
+  margin-bottom: 30px !important;
+}
+.faq {
+  color: white !important;
+  background-color: white;
+  background-image: linear-gradient(
+    to right,
+    rgb(112, 28, 180),
+    rgb(43, 11, 68)
+  );
+  border-radius: 20px;
+}
+.panel-color {
+  background-color: rgba(67, 27, 100);
+}
+.space-divider {
+  margin: 60px;
+  background-color: rgb(197, 133, 248) !important;
+}
+.loc-icon {
+  vertical-align: bottom;
+  font-size: 22px !important;
+  color: rgb(112, 28, 180) !important;
+}
+.row .input-field input:focus {
+  border-bottom: 1px solid rgb(112, 28, 180) !important;
+  box-shadow: 0 1px 0 0 rgb(112, 28, 180) !important;
+}
+.row .input-field textarea:focus {
+  border-bottom: 1px solid rgb(112, 28, 180) !important;
+  box-shadow: 0 1px 0 0 rgb(112, 28, 180) !important;
+}
+.submit-btn {
+  color: white;
+  background-color: white;
+  background-image: linear-gradient(
+    to right,
+    rgb(145, 59, 216),
+    rgba(67, 27, 100)
+  );
+  border-radius: 20px;
+  width: 100px;
+  transition-property: background-image;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in;
+  transition-delay: 0s;
+}
+.submit-btn:hover {
+  color: white;
+  background-color: white;
+  background-image: linear-gradient(to right, black, black);
+}
+.section-footer {
+  background-color: rgb(33, 6, 56);
+  height: 200px;
+}
+
+.footer-space {
+  margin-top: 50px;
+}
+.social .fa-2x {
+  margin: 5px 10px;
+}
+.social-icon {
+  color: white !important;
+  font-size: 12px !important;
+  transition-property: color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in;
+  transition-delay: 0s;
+}
+.social-icon:hover {
+  color: #18ffff !important;
+  box-shadow: 1px, 1px, 1px, 1px, #18ffff;
+}
+.logins-btn {
+  color: white;
+
+  font-family: montserrat;
+  background-color: white;
+  background-image: linear-gradient(
+    to right,
+    rgb(145, 59, 216),
+    rgba(67, 27, 100)
+  );
+  border-radius: 30px;
+  width: 130px;
+  transition-property: background-image;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in;
+  transition-delay: 0s;
+}
+.logins-btn:hover {
+  color: white;
+  background-color: white;
+  background-image: linear-gradient(to right, black, black);
+}
+@media only screen and (max-width: 600px) {
+  .parallax-container {
+    height: 150px;
+  }
+  .copyright {
+    text-align: center;
+  }
+  .social {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .section-footer {
+    height: 230px;
+  }
+}
+.login-panel {
+  box-shadow: none !important;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 9px;
+}
+
+@media only screen and (min-width: 600px) {
+  .login-modal {
+    width: 410px;
+  }
+}
+.msocial-icon {
+  font-size: 12px !important;
+  color: rgba(67, 27, 100);
+  transition-property: color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in;
+  transition-delay: 0s;
+}
+.msocial-icon:hover {
+  color: rgb(145, 59, 216) !important;
+  box-shadow: 1px, 1px, 1px, 1px, rgb(145, 59, 216);
+}
+.input-field .prefix.active {
+  color: rgb(87, 33, 131);
+}
+.login-panel .input-field input:focus {
+  border-bottom: 1px solid rgb(112, 28, 180) !important;
+  box-shadow: 0 1px 0 0 rgb(112, 28, 180) !important;
+}
+input[type="email"]:not(.browser-default):focus:not([readonly]) + label {
+  color: rgb(87, 33, 131);
+}
+input[type="password"]:not(.browser-default):focus:not([readonly]) + label {
+  color: rgb(87, 33, 131);
+}
+input[type="text"]:not(.browser-default):focus:not([readonly]) + label {
+  color: rgb(87, 33, 131);
+}

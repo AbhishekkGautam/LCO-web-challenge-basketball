@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <title>LCO Basket</title>
+
+    <!-- Google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat&family=Quicksand&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/c170bdf11a.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- M icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Actual M -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body id="home" class="scrollspy">
+    <section class="mynav">
+      <div class="navbar-fixed">
+        <nav class="white">
+          <div class="container">
+            <div class="nav-wrapper">
+              <a href="#" class="brand-logo"
+                ><img
+                  src="./images/logo.png"
+                  style="width: 60px; height: 60px;"
+              /></a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+                ><i class="material-icons menu-icon">menu</i></a
+              >
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#tournament">Tournaments</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#faq">FAQs</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li>
+                  <a
+                    class="dropdown-trigger btn z-depth-3 login-btn no-uppercase"
+                    href="#!"
+                    data-target="dropdown1"
+                    >Login</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <ul id="dropdown1" class="dropdown-content">
+        <li><a onclick="toggleSignIn()">SignIn</a></li>
+        <li class="divider"></li>
+        <li><a onclick="toggleSignUp()">SignUp</a></li>
+      </ul>
+
+      <ul class="sidenav" id="mobile-demo">
+        <li>
+          <div class="user-view">
+            <div class="background">
+              <img src="images/side-banner.jpg" />
+            </div>
+            <a href="#user"
+              ><img
+                class="responsive-image"
+                style="width: 110px; height: 110px;"
+                src="images/logo.png"
+            /></a>
+            <h5 style="padding-bottom: 13px;" class="white-text">
+              LCO Basket Tournament
+            </h5>
+          </div>
+        </li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#tournament">Tournaments</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#faq">FAQs</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <li class="divider"></li>
+        <li><a onclick="toggleSignIn();">SignIn</a></li>
+        <li><a onclick="toggleSignUp();">SignUp</a></li>
+      </ul>
+    </section>
+
+    <section class="myslider">
+      <div class="slider">
+        <ul class="slides">
+          <li>
+            <img src="./images/banner1.png" />
+            <!-- random image -->
+            <div class="caption left-align">
+              <h2>Go Fight For It Team.</h2>
+              <h5 class="light grey-text text-lighten-3 hide-on-small-only">
+                Some want it to happen, Some wish it would happen, Others make
+                it happen.
+              </h5>
+              <div style="padding-top: 22px; display: inline-block;">
+                <a class="btn-large slider-btn z-depth-2 no-uppercase"
+                  >Register Now</a
+                >
+                <a
+                  data-target="modal3"
+                  class="btn-floating btn-large pulse z-depth-1 modal-trigger"
+                  ><i class="large material-icons video-icon">play_arrow</i></a
+                >
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="./images/banner3.png" />
+            <!-- random image -->
+            <div class="caption left-align">
+              <h2 class="">Get To The Ball First.</h2>
+              <h5 class="light grey-text text-lighten-3 hide-on-small-only">
+                Stand tall, Talk small, Play ball.
+              </h5>
+            </div>
+          </li>
+          <li>
+            <img src="./images/banner2.png" />
+            <!-- random image -->
+            <div class="caption left-align">
+              <h2>Let The MADNESS Begin!</h2>
+              <h5 class="light grey-text text-lighten-3 hide-on-small-only">
+                Don’t worry, we’re still wearing our warm-ups.
+              </h5>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="about-us">
+      <div id="about" class="container scrollspy">
+        <div class="section white center">
+          <h2 class="header">LCO Amazing BasketBall Tournament</h2>
+          <div class="row center">
+            <div class="col l8 s12 left-align space">
+              <p class="about-para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Provident labore id corrupti architecto tempore, omnis accusamus
+                possimus at soluta? Est, quis quo accusantium exercitationem
+                quod totam, facilis dolores dolor a optio deserunt inventore eos
+                aliquam, quae dolorem perspiciatis dicta magni ipsum vero
+                numquam. Expedita voluptate quidem officia, reiciendis
+                voluptatem nemo dolorem aperiam a vitae! Inventore, dolores enim
+                aspernatur praesentium aliquam dolore quas nostrum et harum
+                tempore, alias necessitatibus ipsam repellendus ullam fuga ea
+                aliquid, vero error. Quibusdam non voluptatum voluptas similique
+                veniam eos necessitatibus in rem, quos sit impedit eligendi,
+                magni qui, cupiditate natus nesciunt! Tempora mollitia vitae
+                labore? Dicta! Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit. Vero dignissimos animi maiores dolore ut
+                iusto, reiciendis molestias alias cupiditate eveniet. Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. Rerum, qui.
+              </p>
+              <div
+                class="center"
+                style="padding-top: 40px; padding-bottom: 20px;"
+              >
+                <a
+                  class="btn-large waves-effect waves-light z-depth-3 about-btn no-uppercase"
+                  >Know More</a
+                >
+              </div>
+            </div>
+
+            <div class="col l4 s12 center space">
+              <img
+                src="images/about-us.png"
+                style="object-fit: contain;"
+                height="390"
+                width="auto"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="videomodal">
+      <div id="modal3" class="modal">
+        <div class="video-container">
+          <iframe
+            class="iframe-video"
+            width="853"
+            height="480"
+            src="https://www.youtube.com/embed/hqvGOPB0KmQ"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="signin-modal">
+      <div id="modal4" class="modal login-modal">
+        <div class="card-panel login-panel">
+          <h5 style="font-family: montserrat; line-height: 10px;">
+            Hello there,
+          </h5>
+          <h5 style="font-family: montserrat; padding-bottom: 10px;">
+            welcome back
+          </h5>
+          <div class="input-field">
+            <i class="material-icons prefix">email</i>
+            <input id="email" type="email" class="validate" />
+            <label for="email">Email</label>
+          </div>
+          <div class="input-field">
+            <i class="material-icons prefix">lock</i>
+            <input id="password" type="password" class="validate" />
+            <label for="password">Password</label>
+          </div>
+          <div class="center">
+            <a
+              class="btn-large waves-effect waves-light z-depth-3 logins-btn no-uppercase"
+              >Sign In</a
+            >
+          </div>
+          <div>
+            <p class="center">Or</p>
+            <div class="center social">
+              <a href="#!" class="msocial-icon">
+                <i class="fab fa-facebook fa-2x"></i>
+              </a>
+              <a href="#!" class="msocial-icon">
+                <i class="fab fa-instagram fa-2x"></i>
+              </a>
+              <a href="#!" class="msocial-icon">
+                <i class="fab fa-twitter fa-2x"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="signup-modal">
+      <div id="modal5" class="modal login-modal">
+        <div class="card-panel login-panel">
+          <h5 style="font-family: montserrat; padding-bottom: 5px;">
+            Get on Board
+          </h5>
+          <div class="input-field">
+            <i class="material-icons prefix">account_circle</i>
+            <input id="text" type="text" class="validate" />
+            <label for="text">Name</label>
+          </div>
+          <div class="input-field">
+            <i class="material-icons prefix">email</i>
+            <input id="email" type="email" class="validate" />
+            <label for="email">Email</label>
+          </div>
+          <div class="input-field">
+            <i class="material-icons prefix">lock</i>
+            <input id="password" type="password" class="validate" />
+            <label for="password">Password</label>
+          </div>
+          <div class="center">
+            <a
+              class="btn-large waves-effect waves-light z-depth-3 logins-btn no-uppercase"
+              >Sign Up</a
+            >
+          </div>
+          <div>
+            <p class="center">Or</p>
+            <div class="center social">
+              <a href="#!" class="msocial-icon">
+                <i class="fab fa-facebook fa-2x"></i>
+              </a>
+              <a href="#!" class="msocial-icon">
+                <i class="fab fa-instagram fa-2x"></i>
+              </a>
+              <a href="#!" class="msocial-icon">
+                <i class="fab fa-twitter fa-2x"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="myparallax">
+      <div class="parallax-container">
+        <div class="parallax">
+          <img class="responsive-img" src="images/parallax.png" />
+        </div>
+      </div>
+    </section>
+
+    <section class="coming-soon">
+      <div id="tournament" class="container scrollspy">
+        <div class="row">
+          <div class="col l5 s12 center space">
+            <img
+              src="images/coming.png"
+              style="object-fit: contain;"
+              height="400"
+              width="auto"
+              alt=""
+            />
+          </div>
+
+          <div class="col l7 s12 center space-coming">
+            <h5 style="font-family: montserrat;">
+              LCO AMAZING BASKETBALL TOURNAMENT
+            </h5>
+            <h1 class="header">Coming Soon!</h1>
+
+            <h5>Want to enjoy the thriller games?</h5>
+            <div class="center" style="padding: 35px;">
+              <a
+                class="btn-large waves-effect waves-light z-depth-3 about-btn no-uppercase"
+                >Buy Ticket</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="myparallax">
+      <div class="parallax-container">
+        <div class="parallax">
+          <img width="60%" class="" src="images/parallax.png" />
+        </div>
+      </div>
+    </section>
+    <section class="myteam">
+      <div id="team" class="section white center space scrollspy">
+        <h2 class="header">Our Team</h2>
+        <div class="carousel myteam">
+          <a class="carousel-item">
+            <div class="row">
+              <div class="col s12">
+                <div
+                  class="card-panel z-depth-4"
+                  style="
+                    background-color: white;
+                    border: 1.2px solid;
+                    border-radius: 10px;
+                    border-color: rgb(124, 41, 192);
+                  "
+                >
+                  <img
+                    src="./images/player1.png"
+                    class="circle z-depth-3"
+                    width="100px"
+                    height="100px"
+                    alt=""
+                  />
+                  <h6
+                    style="color: rgba(67, 27, 100); font-family: montserrat;"
+                  >
+                    Phil Gonzales
+                  </h6>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class="carousel-item">
+            <div class="row">
+              <div class="col s12">
+                <div
+                  class="card-panel z-depth-4"
+                  style="
+                    background-color: white;
+                    border: 1.2px solid;
+                    border-radius: 10px;
+                    border-color: rgb(124, 41, 192);
+                  "
+                >
+                  <img
+                    src="./images/player2.png"
+                    class="circle z-depth-3"
+                    width="100px"
+                    height="100px"
+                    alt=""
+                  />
+                  <h6
+                    style="color: rgba(67, 27, 100); font-family: montserrat;"
+                  >
+                    Michael Barnett
+                  </h6>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class="carousel-item">
+            <div class="row">
+              <div class="col s12">
+                <div
+                  class="card-panel z-depth-4"
+                  style="
+                    background-color: white;
+                    border: 1.2px solid;
+                    border-radius: 10px;
+                    border-color: rgb(124, 41, 192);
+                  "
+                >
+                  <img
+                    src="./images/player3.png"
+                    class="circle z-depth-3"
+                    width="100px"
+                    height="100px"
+                    alt=""
+                  />
+                  <h6
+                    style="color: rgba(67, 27, 100); font-family: montserrat;"
+                  >
+                    Salvatore Arnold
+                  </h6>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class="carousel-item">
+            <div class="row">
+              <div class="col s12">
+                <div
+                  class="card-panel z-depth-4"
+                  style="
+                    background-color: white;
+                    border: 1.2px solid;
+                    border-radius: 10px;
+                    border-color: rgb(124, 41, 192);
+                  "
+                >
+                  <img
+                    src="./images/player4.png"
+                    class="circle z-depth-3"
+                    width="100px"
+                    height="100px"
+                    alt=""
+                  />
+                  <h6
+                    style="color: rgba(67, 27, 100); font-family: montserrat;"
+                  >
+                    Nick Schultz
+                  </h6>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class="carousel-item">
+            <div class="row">
+              <div class="col s12">
+                <div
+                  class="card-panel z-depth-4"
+                  style="
+                    background-color: white;
+                    border: 1.2px solid;
+                    border-radius: 10px;
+                    border-color: rgb(124, 41, 192);
+                  "
+                >
+                  <img
+                    src="./images/player5.png"
+                    class="circle z-depth-3"
+                    width="100px"
+                    height="100px"
+                    alt=""
+                  />
+                  <h6
+                    style="color: rgba(67, 27, 100); font-family: montserrat;"
+                  >
+                    Robert Long
+                  </h6>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="myfaq">
+      <div id="faq" class="container scrollspy">
+        <div class="section white center space">
+          <h2 class="header">FAQs</h2>
+        </div>
+        <div class="row">
+          <div class="col s12 m12 l6">
+            <div class="card-panel hoverable white-text faq">
+              <h5>When will be the tournament begin?</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ab
+                ipsa enim odit distinctio repellat ipsam nesciunt sequi vero
+              </p>
+            </div>
+          </div>
+          <div class="col s12 m12 l6">
+            <div class="card-panel hoverable white-text faq">
+              <h5>How many games will be played?</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ab
+                ipsa enim odit distinctio repellat ipsam nesciunt sequi vero
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m12 l6">
+            <div class="card-panel hoverable white-text faq">
+              <h5>How many teams make the playoffs?</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ab
+                ipsa enim odit distinctio repellat ipsam nesciunt sequi vero
+              </p>
+            </div>
+          </div>
+          <div class="col s12 m12 l6">
+            <div class="card-panel hoverable white-text faq">
+              <h5>How can I watch this tournament?</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ab
+                ipsa enim odit distinctio repellat ipsam nesciunt sequi vero
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="divider space-divider"></div>
+    <section class="myform">
+      <div id="form" class="section section-form space">
+        <div id="contact" class="container scrollspy">
+          <div class="row">
+            <div class="col s12 m6">
+              <div class="card-panel hoverable panel-color white-text center">
+                <h4>Contact Us For Enquiry</h4>
+                <p>
+                  LCO AMAZING BASKETBALL TOURNAMENT
+                </p>
+              </div>
+              <ul class="collection without-header">
+                <li class="collection-item">
+                  <h5>LCO Basketball Ground</h5>
+                </li>
+                <li class="collection-item">
+                  <i class="material-icons loc-icon">place</i>
+                  55 - XYZ Home, ABC Road, Near W. Lake.
+                </li>
+                <li class="collection-item">
+                  <i class="material-icons loc-icon">place</i>
+                  Jaipur, India
+                </li>
+                <li class="collection-item">
+                  <i class="material-icons loc-icon">phone</i> +919999999999
+                </li>
+                <li class="collection-item">
+                  <i class="material-icons loc-icon">email</i>
+                  enquiry@lco.tournament.com
+                </li>
+              </ul>
+            </div>
+            <div class="col s12 m6">
+              <div class="card-panel hoverable form-panel z-depth-2">
+                <h5>Please fill out this form</h5>
+                <div class="input-field">
+                  <input type="text" placeholder="Name" />
+                </div>
+                <div class="input-field">
+                  <input type="text" placeholder="Email" />
+                </div>
+                <div class="input-field">
+                  <input type="text" placeholder="Phone" />
+                </div>
+                <div class="input-field">
+                  <textarea
+                    class="materialize-textarea"
+                    placeholder="Message"
+                  ></textarea>
+                </div>
+                <a
+                  class="btn waves-effect waves-light z-depth-3 submit-btn no-uppercase"
+                  >Submit</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="myfooter">
+      <footer class="section section-footer white-text footer-space">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 m6 s12 space">
+              <h6
+                class="white-text left-align copyright"
+                style="
+                  line-height: 30px;
+                  font-weight: lighter;
+                  font-family: montserrat;
+                "
+              >
+                Copyright &copy; 2020 LCO | All right reserved.
+              </h6>
+              <p class="white-text left-align copyright">
+                Designed by Abhishek Gautam.
+              </p>
+            </div>
+            <div class="col l6 m6 s12 space right-align social">
+              <a
+                href="https://www.facebook.com/profile.php?id=100007217255226"
+                target="_blank"
+                class="social-icon"
+              >
+                <i class="fab fa-facebook fa-2x"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/im_avishek/"
+                target="_blank"
+                class="social-icon"
+              >
+                <i class="fab fa-instagram fa-2x"></i>
+              </a>
+              <a
+                href="https://twitter.com/im_avigautam?s=09"
+                target="_blank"
+                class="social-icon"
+              >
+                <i class="fab fa-twitter fa-2x"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+
+  <!-- jquery -->
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"
+    integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+    crossorigin="anonymous"
+  ></script>
+  <!-- M script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <!-- custom js -->
+  <script src="./init.js"></script>
+</html>
